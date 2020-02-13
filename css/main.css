@@ -112,6 +112,7 @@ display: block;
     float: left; 
 }
 .sec2_ikon ul{
+    margin-top: -20px;
     width: 150px;
 }
 .sec2_ikon ul li{
