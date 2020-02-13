@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        body{
+            background-color: #4b4e43;
+        }
+        .wrapper{
+            width: 960px;
+            margin: 0 auto;
+        }
+        #header{
+            background-color: #b1c9df;
+            overflow: hidden;
+        }
+        #header-inner{
+            background-image: url("img/img4/header-bg.png");
+            height: 400px;
+            margin-top: 30px;
+        }
+        .logo{
+            background-image: url("img/img4/logo.png");
+            text-indent: -9999px;
+            width: 280px;
+            height: 50px;
+            position: absolute;
+        }
+        #move{
+            background-image: url("img/img4/movie-scroll.png");
+            height: 110px;
+        }
+        #contents-list{
+            margin-top: 50px;
+        }
+        #contents-list>li{
+            width: 300px;
+            float: left;
+            background-color: #22233f;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            top: 30px;
+            transition: all 1s;
+            text-align: center;
+        }
+        #contents-list>li:hover{
+            top:0;
+            background-color: red;
+        }
+        #contents-list li h3{
+            color: #999;
+            font-size: 25px;
+            padding: 10px 0 10px 15px;
+            font-family: "Calibri";
+            text-align: left;
+        }
+        #contents-list li p{
+            color: #999;
+            padding: 10px;
+        }
+        .btn{
+            border-top:1px solid #999;
+            display: inline-block;
+        }
+        .btn li{
+            float: left;
+        }
+        .btn li a{
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-image: url("img/img4/sprite-btn.png");
+            text-indent: -9999px;
+        }
+        .btn a:hover{
+            background-color: #000;
+        }
+        .btn li.view a{
+            background-position: 0 0;
+        }
+        .btn li.like a{
+            background-position: -50px 0;
+        }
+        .btn li.share a{
+            background-position: -100px 0;
+        }
+        #footer-inner{
+            clear: both;
+            background-color: silver;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-inner" class="wrapper">
+            <a href="#" class="logo">Pixar</a>
+        </div>
+    </header>
+    <div id="move"></div>
+    <article id="contents" class="wrapper">
+        <ul id="contents-list">
+            <li>
+                <img src="img/img4/cover01.png" alt="영화1">
+                <h3>The Incredible</h3>
+                <p>dklsjfl;sadjfkldasjfl;djfdkl;jfd;lajf;ljkdkddd</p>
+                <ul class="btn">
+                    <li class="view"><a href="#">보기</a></li>
+                    <li class="like"><a href="#">좋아요</a></li>
+                    <li class="share"><a href="#">공유</a></li>
+                </ul>
+            </li>
+            <li>
+                <img src="img/img4/cover02.png" alt="영화1">
+                <h3>The Incredible</h3>
+                <p>dklsjfl;sadjfkldasjfl;djfdkl;jfd;lajf;ljkdkddd</p>
+                <ul class="btn">
+                    <li class="view"><a href="#">보기</a></li>
+                    <li class="like"><a href="#">좋아요</a></li>
+                    <li class="share"><a href="#">공유</a></li>
+                </ul>
+            </li>
+            <li>
+                <img src="img/img4/cover03.png" alt="영화1">
+                <h3>The Incredible</h3>
+                <p>dklsjfl;sadjfkldasjfl;djfdkl;jfd;lajf;ljkdkddd</p>
+                <ul class="btn">
+                    <li class="view"><a href="#">보기</a></li>
+                    <li class="like"><a href="#">좋아요</a></li>
+                    <li class="share"><a href="#">공유</a></li>
+                </ul>
+            </li>
+            <li>
+                <img src="img/img4/cover04.png" alt="영화1">
+                <h3>The Incredible</h3>
+                <p>dklsjfl;sadjfkldasjfl;djfdkl;jfd;lajf;ljkdkddd</p>
+                <ul class="btn">
+                    <li class="view"><a href="#">보기</a></li>
+                    <li class="like"><a href="#">좋아요</a></li>
+                    <li class="share"><a href="#">공유</a></li>
+                </ul>
+            </li>
+            <li>
+                <img src="img/img4/cover05.png" alt="영화1">
+                <h3>The Incredible</h3>
+                <p>dklsjfl;sadjfkldasjfl;djfdkl;jfd;lajf;ljkdkddd</p>
+                <ul class="btn">
+                    <li class="view"><a href="#">보기</a></li>
+                    <li class="like"><a href="#">좋아요</a></li>
+                    <li class="share"><a href="#">공유</a></li>
+                </ul>
+            </li>
+            <li>
+                <img src="img/img4/cover06.png" alt="영화1">
+                <h3>The Incredible</h3>
+                <p>dklsjfl;sadjfkldasjfl;djfdkl;jfd;lajf;ljkdkddd</p>
+                <ul class="btn">
+                    <li class="view"><a href="#">보기</a></li>
+                    <li class="like"><a href="#">좋아요</a></li>
+                    <li class="share"><a href="#">공유</a></li>
+                </ul>
+            </li>
+        </ul>
+    </article>
+    <footer>
+        <div class="wrapper" id="footer-inner">
+            <p>CopyRight by WEB 2019</p>
+        </div>
+    </footer>
+</body>
+</html>
