@@ -112,24 +112,21 @@ display: block;
     float: left; 
 }
 .sec2_ikon ul{
-    margin-top: -20px;
+    /* margin-top: 7px; */
     width: 150px;
 }
 .sec2_ikon ul li{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 40px;
     border-bottom:1px solid #fff;
     border-right:1px solid #fff;
-    font-size: 20px;
     color: white;
+    line-height: 40px;
+    font-size: 16px;
     background-color: rgba(255, 255, 255, 0.4);
 }
-.sec2_ikon ul li span{
-    font-family: 'Noto Serif KR', serif;
-    padding-left: 5px;
-}
 .sec2_ikon ul li:last-child{
-    padding: 50px 0;
+    line-height: 70px;
+    height: 70px;
 }
 .sec2_txt{
     width: 350px;
@@ -137,19 +134,26 @@ display: block;
 }
 .sec2_txt ul li{
     padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    line-height: 40px;
+    height: 40px;
     text-align: left;
     border-bottom:1px solid #fff;
     color:#fff;
-    font-size: 20px;
+    font-size: 16px;
+}
+.sec2_txt ul li:last-child{
+    border: none;
 }
 .sec2_txt ul li img{
-    margin-left: -150px;
-    margin-top: 10px;
+    margin-left: -140px;
+    margin-top: 45px;
 }
 .sec2_txt ul #color1>span{
     color: #03cf5d;
+}
+.sec2_txt ul #color2{
+    line-height: 23px;
+    height: 70px;
 }
 .sec2_txt ul #color2>span{
     color: #fae100;
