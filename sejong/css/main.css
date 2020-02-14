@@ -35,7 +35,7 @@ nav{
     left: 290px;
 }
 #nav_1{
-    width: 890px;
+    width: 970px;
     margin:0 auto;
 }
 #nav_1 ul li{
@@ -46,12 +46,16 @@ nav{
     color: #3A6B45;
     vertical-align: -100%;
     font-size: 30px;
-    font-family: 'Jua', sans-serif;
+    font-family: "굴림";
+    font-weight: bold;
+    /* font-family: 'Do Hyeon', sans-serif; */
+    
 }
 #nav_1 ul li a:hover{
     color: #2ECC71;
     font-size: 30px;
-    font-family: 'Jua', sans-serif;
+    /* font-family: 'Do Hyeon', sans-serif; */
+    /* font-family: 'Jua', sans-serif; */
 }
 #textall1{
     text-align: center;
@@ -70,7 +74,7 @@ nav{
 }
 #textall1 ul li h1{
     font-size: 26px;
-    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Noto Sans KR', sans-serif; */
     color: #fff;
 }
 #textall1 ul li#borno{
